@@ -1445,6 +1445,12 @@ cat /var/lib/mysql/mysql/user.MYD
 cat /root/anaconda-ks.cfg
 ```
 
+#### CVE-2021-4034
+```
+https://github.com/berdav/CVE-2021-4034
+https://github.com/arthepsy/CVE-2021-4034
+```
+	
 #### 不安全的文件/文件夹权限配置
 
 ```apl
