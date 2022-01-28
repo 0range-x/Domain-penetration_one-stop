@@ -4,4 +4,4 @@
 
 https://0range-x.github.io/2022/01/26/Domain-penetration_one-stop/
 
-会跟进漏洞更新。
+会跟进漏洞更新。pdf没有md文档更新那么快，太懒了
