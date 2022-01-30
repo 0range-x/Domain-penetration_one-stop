@@ -1,0 +1,13 @@
+[package]
+name = "Domain-penetration_one-stop"
+version = "0.1.0"
+authors = ["xrang3@gmail.com"]
+edition = "2022"
+description = "Refer to the 'Domain Penetration Guide North' map and the Domain Penetration Manual organized by the intranet penetration tips"
+repository = "https://github.com/0range-x/Domain-penetration_one-stop.git"
+license = "GPL-3.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+hook = []
