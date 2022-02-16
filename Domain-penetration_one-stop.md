@@ -1010,6 +1010,10 @@ net use \\ip\c$ "password" /user:"administrator"
 3.GPO Delegation
 
 4.ADCS
+
+5.钉钉 6.3.5 RCE https://github.com/crazy0x70/dingtalk-RCE
+
+6.向日葵11.1 RCE
 ~~~
 
 
